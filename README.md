@@ -9,6 +9,8 @@ Plugin honekin EITB Nahieran ikusi dezakezu zure Kodi instalazioan
 Galderak eta hobekuntzak hemendik eskatzeko idatzi niri zuzenean
 (larreategi a-bildua eibar.org) edo ireki ticket bat [GitHubeko kontuan](https://github.com/erral/plugin.video.eitb/issues)
 
+[Deskargak githubetik egin daitezke](https://github.com/erral/plugin.video.eitb/releases)
+
 ## Español
 
 Este plugin permite ver todos los contenidos de EITB Nahieran en Kodi
@@ -16,11 +18,16 @@ Este plugin permite ver todos los contenidos de EITB Nahieran en Kodi
 Si tenéis preguntas o propuestas de mejora, podéis escribirme directamente
 (larreategi arroba eibar.org) o abrir un ticket [en la cuenta de GitHub](https://github.com/erral/plugin.video.eitb/issues)
 
+[Descargar desde GitHub](https://github.com/erral/plugin.video.eitb/releases)
 
 ### Based on
 
 Based on [plugin.video.example](https://github.com/romanvm/plugin.video.example/) by romanvm (GPLv3)
 Based on [plugin.audio.example](https://github.com/zag2me/plugin.audio.example) by zag2me (GPLv2)
+
+## Downloads
+
+Download from [releases page](https://github.com/erral/plugin.video.eitb/releases)
 
 ## License (GPLv3)
 
