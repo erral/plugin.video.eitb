@@ -1,0 +1,5 @@
+<settings>
+    <category label="30000">
+        <setting id="API_URL" type="text" label="30001" default="https://still-castle-99749.herokuapp.com"/>
+    </category>
+</settings>
