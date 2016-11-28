@@ -4,7 +4,7 @@ This plugin allows to use the videos and audios in EITB Nahieran in your Kodi
 
 [Irakurri euskaraz](README_eu.md)
 
-[En español](README_eu.md)
+[En español](README_es.md)
 
 
 ### Based on
