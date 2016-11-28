@@ -1,2 +1,6 @@
+[B]1.0.1[/B]
+- Add install information and improve readme. [erral]
+
+
 [B]1.0.0[/B]
-- Initial release.
+- Initial release. [erral]
