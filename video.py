@@ -107,7 +107,7 @@ class VideoHandler(object):
         # Iterate through videos.
         for video in videos.get('formats'):
             if video.get('ext') == 'mp4':
-                title = u'{} ({})'.format(video['format'], videos['title'])
+                title = u'{0} ({1})'.format(video['format'], videos['title'])
                 # Create a list item with a text label and a thumbnail image.
                 list_item = xbmcgui.ListItem(label=title)
                 # Set additional info for the list item.

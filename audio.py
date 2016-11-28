@@ -53,7 +53,7 @@ class AudioHandler(object):
             date = audio.get('date')
             title = audio.get('title')
             audio_url = audio.get('url')
-            label = u'{} ({})'.format(date, title)
+            label = u'{0} ({1})'.format(date, title)
             # create a list item using the song filename for the label
             list_item = xbmcgui.ListItem(label=label)
             # set the fanart to the albumc cover

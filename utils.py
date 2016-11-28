@@ -3,8 +3,8 @@ import requests
 
 addon = xbmcaddon.Addon()
 API_URL = addon.getSetting('API_URL')
-VIDEO_PLAYLIST_URL = '{}/playlist'.format(API_URL)
-RADIO_PLAYLIST_URL = '{}/radio'.format(API_URL)
+VIDEO_PLAYLIST_URL = '{0}/playlist'.format(API_URL)
+RADIO_PLAYLIST_URL = '{0}/radio'.format(API_URL)
 
 
 def get_programs():
