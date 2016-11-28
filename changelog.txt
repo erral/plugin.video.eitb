@@ -1,3 +1,6 @@
+[B]1.0.2[/B]
+- Nothing changed yet.
+
 [B]1.0.1[/B]
 - Add install information and improve readme. [erral]
 
