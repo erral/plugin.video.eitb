@@ -48,7 +48,7 @@ class VideoHandler(object):
         # instead of adding one by ove via addDirectoryItem.
         xbmcplugin.addDirectoryItems(self.handle, listing, len(listing))
         # Add a sort method for the virtual folder items (alphabetically, ignore articles)
-        #xbmcplugin.addSortMethod(_handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
+        xbmcplugin.addSortMethod(self.handle, xbmcplugin.SORT_METHOD_NONE)
         # Finish creating a virtual folder.
         xbmcplugin.endOfDirectory(self.handle)
 
@@ -90,7 +90,7 @@ class VideoHandler(object):
         # instead of adding one by ove via addDirectoryItem.
         xbmcplugin.addDirectoryItems(self.handle, listing, len(listing))
         # Add a sort method for the virtual folder items (alphabetically, ignore articles)
-        xbmcplugin.addSortMethod(self.handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
+        xbmcplugin.addSortMethod(self.handle, xbmcplugin.SORT_METHOD_NONE)
         # Finish creating a virtual folder.
         xbmcplugin.endOfDirectory(self.handle)
 
@@ -132,7 +132,7 @@ class VideoHandler(object):
         # instead of adding one by ove via addDirectoryItem.
         xbmcplugin.addDirectoryItems(self.handle, listing, len(listing))
         # Add a sort method for the virtual folder items (alphabetically, ignore articles)
-        xbmcplugin.addSortMethod(self.handle, xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
+        xbmcplugin.addSortMethod(self.handle, xbmcplugin.SORT_METHOD_NONE)
         # Finish creating a virtual folder.
         xbmcplugin.endOfDirectory(self.handle)
 
