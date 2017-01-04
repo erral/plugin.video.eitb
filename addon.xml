@@ -16,7 +16,7 @@
         <description lang="eu">EITB Nahieranen API ez ofiziala erabiliz egindakoa</description>
         <summary lang="es">Plugin para EITB a la carta</summary>
         <description lang="es">Hecho con la API no oficial de EITB a la carta</description>
-        <license>GPLv3</license>
+        <license>GNU General Public License, v3</license>
         <source>https://github.com/erral/plugin.video.eitb</source>
         <website>https://github.com/erral/plugin.video.eitb</website>
         <email>larreategi@eibar.org</email>
