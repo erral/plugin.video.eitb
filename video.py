@@ -59,13 +59,18 @@ class VideoHandler(object):
         listing = []
         episodes = get_episodes(url)
         for episode in episodes:
-            title_eu = episode.get('title')
-            title_es = episode.get('title_es')
-            desc_eu = episode.get('description')
-            desc_es = episode.get('description_es')
+            title = episode.get('title')
+            date = episode.get('broadcast_date', '')
+            try:
+                date = date.split('T')[0]
+                title = u'{} ({})'.format(episode.get('title'), date)
+            except:
+                title = episode.get('title')
+
+            desc = episode.get('description')
             episode_url = episode.get('@id')
             # Create a list item with a text label and a thumbnail image.
-            list_item = xbmcgui.ListItem(label=title_eu)
+            list_item = xbmcgui.ListItem(label=title)
             # Set graphics (thumbnail, fanart, banner, poster, landscape etc.) for the list item.
             # Here we use the same image for all items for simplicity's sake.
             # In a real-life plugin you need to set each image accordingly.
@@ -77,7 +82,7 @@ class VideoHandler(object):
             # setInfo allows to set various information for an item.
             # For available properties see the following link:
             # http://mirrors.xbmc.org/docs/python-docs/15.x-isengard/xbmcgui.html#ListItem-setInfo
-            list_item.setInfo('video', {'title': title_eu, 'plot': desc_eu})
+            list_item.setInfo('video', {'title': title, 'plot': desc})
             # Create a URL for the plugin recursive callback.
             # Example: plugin://plugin.video.example/?action=listing&category=Animals
             url = '{0}?action=videoepisode&program={1}'.format(self.url, episode_url)
