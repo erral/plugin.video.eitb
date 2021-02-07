@@ -19,5 +19,9 @@
         <source>https://github.com/erral/plugin.video.eitb</source>
         <website>https://github.com/erral/plugin.video.eitb</website>
         <email>larreategi@eibar.org</email>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
