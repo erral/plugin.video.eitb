@@ -5,7 +5,7 @@ from utils import get_last_broadcast
 import xbmcgui
 import xbmcplugin
 import xbmcaddon
-
+from constants import MENU_ITEMS
 
 addon = xbmcaddon.Addon()
 
@@ -15,18 +15,9 @@ class VideoHandler(object):
         self.url = url
 
     def list_menu(self):
-        menu_items = [{
-            "title":"Programa guztiak",
-            "@id":"all_tvshows",
-            "icon":"/resources/folder.png"
-        },{
-            "title":"Azken saioak",
-            "@id":"last_tvshows",
-            "icon":"/resources/clock.png"
-        }]
 
         listing = []
-        for item in menu_items:
+        for item in MENU_ITEMS:
             title = item.get('title')
             option = item.get('@id')
             icon = item.get('icon')

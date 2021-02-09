@@ -22,8 +22,4 @@ See [LICENSE.txt](LICENSE.txt)
 
 
 ## Icons author
-https://commons.wikimedia.org/wiki/Category:Elegant_Themes_Circle_Icons
-
-By Elegant Themes - http://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-freehttps://archive.is/Uc2Ni, GPL, https://commons.wikimedia.org/w/index.php?curid=47525012
-
-By Elegant Themes - http://www.elegantthemes.com/blog/freebie-of-the-week/beautiful-flat-icons-for-freehttps://archive.is/Uc2Ni, GPL, https://commons.wikimedia.org/w/index.php?curid=47524954
+https://fontawesome.com/
