@@ -43,6 +43,11 @@ def router(paramstring):
                         vh.list_programs()
                     elif params['option'] == 'last_tvshows':
                         vh.list_last_broadcast()
+                    elif params['option'] == 'program-type-list':
+                        vh.list_programs_types()
+                elif params['action'] == 'videotypelisting':
+                    # Display the list of videos in a provided category.
+                    vh.list_programs_types_playlist(params['program'])
                 elif params['action'] == 'videolisting':
                     # Display the list of videos in a provided category.
                     vh.list_episodes(params['program'])
