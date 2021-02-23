@@ -20,6 +20,10 @@ msgctxt "#32000"
 msgid "Telebista saioen ezarpenak"
 msgstr "Telebista saioen ezarpenak"
 
+msgctxt "#32001"
+msgid "Elementu kopurua"
+msgstr "Elementu kopurua"
+
 msgctxt "#32005"
 msgid "Azken telebista saioak"
 msgstr "Azken telebista saioak"
