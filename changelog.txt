@@ -1,3 +1,8 @@
+[B]2.1.0[/B]
+- New browsing options using program types [bipoza]
+- Add latest added program list [bipoza]
+[B]2.0.0[/B]
+- Updates for Kodi Matrix (v19) [bipoza]
 [B]1.0.5[/B]
 - Fix plugin id on addon.xml
 [B]1.0.4[/B]
