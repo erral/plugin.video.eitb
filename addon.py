@@ -1,4 +1,4 @@
-from urlparse import parse_qsl
+from urllib.parse import parse_qsl
 from video import VideoHandler
 from audio import AudioHandler
 
