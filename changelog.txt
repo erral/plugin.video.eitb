@@ -1,3 +1,5 @@
+[B]2.1.1[/B]
+- Translate listings [erral]
 [B]2.1.0[/B]
 - New browsing options using program types [bipoza]
 - Add latest added program list [bipoza]
