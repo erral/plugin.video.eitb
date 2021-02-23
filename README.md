@@ -19,3 +19,7 @@ Download from [releases page](https://github.com/erral/plugin.video.eitb/release
 ## License (GPLv3)
 
 See [LICENSE.txt](LICENSE.txt)
+
+
+## Icons author
+https://fontawesome.com/

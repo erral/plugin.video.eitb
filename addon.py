@@ -31,12 +31,24 @@ def router(paramstring):
     if params:
         if 'content_type' in params:
             if params['content_type'] == 'video':
-                vh.list_programs()
+                vh.list_menu()
+                # vh.list_programs()
             elif params['content_type'] == 'audio':
                 ah.list_radio_programs()
         else:
             if 'action' in params:
-                if params['action'] == 'videolisting':
+                if params['action'] == 'videomenu':
+                    # Display the list of videos in a provided category.
+                    if params['option'] == 'all_tvshows':
+                        vh.list_programs()
+                    elif params['option'] == 'last_tvshows':
+                        vh.list_last_broadcast()
+                    elif params['option'] == 'program-type-list':
+                        vh.list_programs_types()
+                elif params['action'] == 'videotypelisting':
+                    # Display the list of videos in a provided category.
+                    vh.list_programs_types_playlist(params['program'])
+                elif params['action'] == 'videolisting':
                     # Display the list of videos in a provided category.
                     vh.list_episodes(params['program'])
                 elif params['action'] == 'videoepisode':
