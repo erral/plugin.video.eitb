@@ -9,8 +9,8 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Plugin for EITB online service</summary>
-        <description lang="en">Plugin for EITB using the unofficial REST API</description>
+        <summary lang="en_GB">Plugin for EITB online service</summary>
+        <description lang="en_GB">Plugin for EITB using the unofficial REST API</description>
         <summary lang="eu">EITB Nahieranentzako plugina</summary>
         <description lang="eu">EITB Nahieranen API ez ofiziala erabiliz egindakoa</description>
         <summary lang="es">Plugin para EITB a la carta</summary>
