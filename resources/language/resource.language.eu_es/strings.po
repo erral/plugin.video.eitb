@@ -26,3 +26,14 @@ msgctxt "#32005"
 msgid "Latest TV programs"
 msgstr "Azken telebista saioak"
 
+msgctxt "#32006"
+msgid "All programs"
+msgstr "Programa guztiak"
+
+msgctxt "#32007"
+msgid "Last tvshows"
+msgstr "Azken saioak"
+
+msgctxt "#32008"
+msgid "Program types"
+msgstr "Programa motak"

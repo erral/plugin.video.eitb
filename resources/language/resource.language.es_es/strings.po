@@ -26,3 +26,14 @@ msgctxt "#32005"
 msgid "Latest TV programs"
 msgstr "Últimos programas de TV"
 
+msgctxt "#32006"
+msgid "All programs"
+msgstr "Todos los programas"
+
+msgctxt "#32007"
+msgid "Last tvshows"
+msgstr "Últimas emisiones"
+
+msgctxt "#32008"
+msgid "Program types"
+msgstr "Tipos de programa"

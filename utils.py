@@ -45,3 +45,22 @@ def get_radio_programs():
 def get_program_audios(url):
     data = requests.get(url)
     return data.json().get('member')
+
+
+
+import xbmcaddon
+import xbmc
+def get_local_string(string):
+
+    ''' Get add-on string. Returns in unicode.
+    '''
+    # if type(string) != int:
+    #     string = STRINGS[string]
+
+    result = xbmcaddon.Addon('plugin.video.eitb').getLocalizedString(string)
+
+    # Plugin-aren itzulpena ez bada, kodi sistemakoa lortu
+    if not result:
+        result = xbmc.getLocalizedString(string)
+        
+    return result 
