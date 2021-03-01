@@ -4,6 +4,7 @@ from utils import get_videos
 from utils import get_last_broadcast
 from utils import get_programs_types
 from utils import get_programs_types_playlist
+from utils import get_local_string
 import xbmcgui
 import xbmcplugin
 import xbmcaddon
@@ -21,7 +22,8 @@ class VideoHandler(object):
 
         listing = []
         for item in MENU_ITEMS:
-            title = item.get('title')
+            title_id = int(item.get('title_id'))
+            title =  get_local_string(title_id)
             option = item.get('@id')
             icon = item.get('icon')
             # Create a list item with a text label and a thumbnail image.
