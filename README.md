@@ -7,6 +7,8 @@ This plugin allows to use the videos and audios in EITB Nahieran in your Kodi
 [En español](README_es.md)
 
 
+[![Video demo](https://i.ibb.co/Nrt2GqL/eitb-kodi-yt.png)](https://vimeo.com/536953558)
+
 ### Based on
 
 Based on [plugin.video.example](https://github.com/romanvm/plugin.video.example/) by romanvm (GPLv3)
