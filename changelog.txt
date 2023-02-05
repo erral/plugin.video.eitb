@@ -1,3 +1,5 @@
+[B]3.0.0[/B]
+- Works with new version of the API [erral]
 [B]2.1.1[/B]
 - Translate listings [erral]
 [B]2.1.0[/B]
